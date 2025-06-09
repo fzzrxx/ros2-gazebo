@@ -1,0 +1,47 @@
+[0.038s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/ros2_ws5/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/ros2_ws5/install/my_robot_description
+[0.457s] -- The C compiler identification is GNU 13.3.0
+[0.709s] -- The CXX compiler identification is GNU 13.3.0
+[0.774s] -- Detecting C compiler ABI info
+[0.981s] -- Detecting C compiler ABI info - done
+[0.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.988s] -- Detecting C compile features
+[0.990s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.179s] -- Detecting CXX compiler ABI info - done
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.194s] -- Detecting CXX compile features
+[1.194s] -- Detecting CXX compile features - done
+[1.204s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.459s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.957s] -- Configuring done (1.8s)
+[1.962s] -- Generating done (0.0s)
+[1.968s] -- Build files have been written to: /home/faraz/ros2_ws5/build/my_robot_description
+[1.985s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/ros2_ws5/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/ros2_ws5/install/my_robot_description
+[1.986s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws5/build/my_robot_description -- -j4 -l4
+[2.072s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws5/build/my_robot_description -- -j4 -l4
+[2.100s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws5/build/my_robot_description
+[2.117s] -- Install configuration: ""
+[2.117s] -- Execute custom install script
+[2.117s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//urdf/base_and_links.xacro
+[2.134s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[2.152s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//urdf/robot_urdf.urdf.xacro
+[2.170s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[2.186s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[2.205s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[2.220s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[2.233s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[2.248s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[2.248s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[2.265s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/environment/path.sh
+[2.266s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[2.284s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/local_setup.bash
+[2.302s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/local_setup.sh
+[2.316s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[2.329s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[2.349s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/package.dsv
+[2.364s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[2.379s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[2.400s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[2.414s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_description/share/my_robot_description/package.xml
+[2.430s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws5/build/my_robot_description

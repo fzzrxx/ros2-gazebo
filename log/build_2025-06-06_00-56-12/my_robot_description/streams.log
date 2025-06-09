@@ -1,0 +1,41 @@
+[0.069s] Invoking command in '/home/faraz/ros2_ws4/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/ros2_ws4/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/faraz/ros2_ws4/install/my_robot_description
+[0.574s] -- The C compiler identification is GNU 13.3.0
+[0.876s] -- The CXX compiler identification is GNU 13.3.0
+[0.951s] -- Detecting C compiler ABI info
+[1.179s] -- Detecting C compiler ABI info - done
+[1.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.196s] -- Detecting C compile features
+[1.197s] -- Detecting C compile features - done
+[1.243s] -- Detecting CXX compiler ABI info
+[1.465s] -- Detecting CXX compiler ABI info - done
+[1.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.478s] -- Detecting CXX compile features
+[1.479s] -- Detecting CXX compile features - done
+[1.563s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.864s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.310s] -- Configuring done (2.2s)
+[2.318s] -- Generating done (0.0s)
+[2.324s] -- Build files have been written to: /home/faraz/ros2_ws4/build/my_robot_description
+[2.331s] Invoked command in '/home/faraz/ros2_ws4/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/faraz/ros2_ws4/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/faraz/ros2_ws4/install/my_robot_description
+[2.337s] Invoking command in '/home/faraz/ros2_ws4/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws4/build/my_robot_description -- -j4 -l4
+[2.435s] Invoked command in '/home/faraz/ros2_ws4/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws4/build/my_robot_description -- -j4 -l4
+[2.461s] Invoking command in '/home/faraz/ros2_ws4/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws4/build/my_robot_description
+[2.484s] -- Install configuration: ""
+[2.484s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description//urdf
+[2.489s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description//urdf/robot_urdf.urdf
+[2.489s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[2.490s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[2.490s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[2.491s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[2.491s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/environment/path.sh
+[2.491s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[2.491s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/local_setup.bash
+[2.491s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/local_setup.sh
+[2.492s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[2.492s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[2.493s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/package.dsv
+[2.493s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[2.493s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[2.493s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[2.495s] -- Installing: /home/faraz/ros2_ws4/install/my_robot_description/share/my_robot_description/package.xml
+[2.498s] Invoked command in '/home/faraz/ros2_ws4/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws4/build/my_robot_description
