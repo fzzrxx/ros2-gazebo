@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro = "http://www.ros.rog/wiki/xacro">
 
-        <xacro:property name = "base_length" value = "1"/>
+        <xacro:property name = "base_length" value = "0.5"/>
         
         
         <xacro:macro name = "wheel_link" params = 'prefix'>
@@ -27,6 +27,11 @@
                     <origin xyz="0 0 0.1" rpy="0 0 0" />
                     <material name="green"></material>
                 </visual>
+
+                <xacro:box_inertia m = "5.0" x = "0.6" y = "0.4" z = "0.2"
+                                    o_xyz = "0 0 0.1" o_rpy = "0 0 0"/>
+
+
             </link>
 
             <link name="caster_wheel">
@@ -36,6 +41,7 @@
                         <material name="caster_wheel"/>
                     </geometry>
                 </visual>
+
             </link>
 
 
