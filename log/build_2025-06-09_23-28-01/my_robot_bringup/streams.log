@@ -1,0 +1,22 @@
+[2.420s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faraz/ros2_ws5/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/ros2_ws5/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/ros2_ws5/build/my_robot_bringup/build --no-deps symlink_data
+[2.791s] running develop
+[2.995s] running egg_info
+[2.995s] creating my_robot_bringup.egg-info
+[3.019s] writing my_robot_bringup.egg-info/PKG-INFO
+[3.020s] writing dependency_links to my_robot_bringup.egg-info/dependency_links.txt
+[3.031s] writing requirements to my_robot_bringup.egg-info/requires.txt
+[3.032s] writing top-level names to my_robot_bringup.egg-info/top_level.txt
+[3.032s] writing manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+[3.068s] reading manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+[3.073s] writing manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+[3.094s] running build_ext
+[3.102s] Creating /home/faraz/ros2_ws5/install/my_robot_bringup/lib/python3.12/site-packages/my-robot-bringup.egg-link (link to .)
+[3.102s] 
+[3.102s] Installed /home/faraz/ros2_ws5/build/my_robot_bringup
+[3.102s] running symlink_data
+[3.102s] creating /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index
+[3.102s] creating /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index
+[3.102s] creating /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index/packages
+[3.102s] symbolically linking /home/faraz/ros2_ws5/build/my_robot_bringup/resource/my_robot_bringup -> /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index/packages
+[3.102s] symbolically linking /home/faraz/ros2_ws5/build/my_robot_bringup/package.xml -> /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup
+[3.142s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/faraz/ros2_ws5/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/ros2_ws5/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/ros2_ws5/build/my_robot_bringup/build --no-deps symlink_data

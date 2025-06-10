@@ -1,0 +1,14 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/base_and_links.xacro
+-- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/common_properties.xacro
+-- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/robot_urdf.urdf.xacro
+-- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/faraz/ros2_ws5/src/my_robot_bringup/rviz'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

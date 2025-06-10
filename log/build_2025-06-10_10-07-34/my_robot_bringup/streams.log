@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws5/install/my_robot_bringup:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws5/build/my_robot_bringup -- -j4 -l4
+[0.116s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws5/install/my_robot_bringup:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/faraz/ros2_ws5/build/my_robot_bringup -- -j4 -l4
+[0.133s] Invoking command in '/home/faraz/ros2_ws5/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws5/install/my_robot_bringup:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws5/build/my_robot_bringup
+[0.150s] -- Install configuration: ""
+[0.151s] -- Execute custom install script
+[0.151s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/base_and_links.xacro
+[0.152s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/common_properties.xacro
+[0.152s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//urdf/robot_urdf.urdf.xacro
+[0.152s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[0.153s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup//rviz/urdf_config.rviz
+[0.175s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.191s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.229s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.249s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.268s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.284s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.299s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.322s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.346s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.362s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.377s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.391s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.416s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.432s] -- Symlinking: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.451s] -- Up-to-date symlink: /home/faraz/ros2_ws5/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.456s] Invoked command in '/home/faraz/ros2_ws5/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/ros2_ws5/install/my_robot_bringup:/home/faraz/ros2_ws4/install/my_robot_description:/home/faraz/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/faraz/ros2_ws5/build/my_robot_bringup
