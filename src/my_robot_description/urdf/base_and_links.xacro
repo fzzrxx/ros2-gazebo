@@ -13,7 +13,17 @@
                     <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0"/>
                     <material name="somethingshit"></material>
                 </visual>
-                </link>
+                <collision>
+                    <geometry>
+                        <sphere radius = "0.1"></sphere>
+
+                    </geometry>
+                    <origin xyz="0 0 0" rpy="0 0 0"/>
+                </collision>
+                
+                <xacro:wheel_inertia m = "0.2" r = "0.1" h = "0.05" o_xyz = "${-base_length / 4} 0.225 0" o_rpy = "${pi} 0 0"/>
+            
+            </link>
 
         </xacro:macro>
 
@@ -27,6 +37,13 @@
                     <origin xyz="0 0 0.1" rpy="0 0 0" />
                     <material name="green"></material>
                 </visual>
+                <collision>
+                    <geometry>
+                        <box size="${base_length} 0.4 0.2" />
+                    </geometry>
+
+                    <origin xyz="0 0 0.1" rpy="0 0 0" />
+                </collision>
 
                 <xacro:box_inertia m = "5.0" x = "0.6" y = "0.4" z = "0.2"
                                     o_xyz = "0 0 0.1" o_rpy = "0 0 0"/>
@@ -41,6 +58,16 @@
                         <material name="caster_wheel"/>
                     </geometry>
                 </visual>
+                <collision>
+                    <geometry>
+                        <sphere radius = "0.05"/>
+                        <material name="caster_wheel"/>
+                    </geometry>
+                    <origin xyz="0 0 0" rpy="0 0 0" />
+
+                </collision>
+                <xacro:castor_wheel_inertia m = "1.5" r = "0.05"
+                                    o_xyz = "0 0 -0.075" o_rpy = "0 0 0"/>
 
             </link>
 
