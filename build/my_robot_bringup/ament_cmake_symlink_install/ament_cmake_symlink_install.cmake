@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "launch" "rviz" "config" "DESTINATION" "share/my_robot_bringup/")
-ament_cmake_symlink_install_directory("/home/faraz/ros2_ws5/src/my_robot_bringup" DIRECTORY "urdf" "launch" "rviz" "config" "DESTINATION" "share/my_robot_bringup/")
+# install(DIRECTORY "urdf" "launch" "rviz" "config" "worlds" "DESTINATION" "share/my_robot_bringup/")
+ament_cmake_symlink_install_directory("/home/faraz/ros2_ws5/src/my_robot_bringup" DIRECTORY "urdf" "launch" "rviz" "config" "worlds" "DESTINATION" "share/my_robot_bringup/")
 
 # install(FILES "/home/faraz/ros2_ws5/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/faraz/ros2_ws5/src/my_robot_bringup" FILES "/home/faraz/ros2_ws5/build/my_robot_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
