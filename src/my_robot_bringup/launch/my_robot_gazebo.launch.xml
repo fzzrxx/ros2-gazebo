@@ -15,7 +15,7 @@
 
     <node pkg = "ros_gz_sim" exec = "create" args = "-topic robot_description"/>
 
-    <node pkg = "ros_gz_bridge" exec = "paremeter_bridge">
+    <node pkg = "ros_gz_bridge" exec = "parameter_bridge">
         <param name = "config_file" value = "$(var gazebo_config_path)"/>
     </node>
 

@@ -35,7 +35,7 @@
     </xacro:macro>
 
 
-    <xacro:macro name = "castor_wheel_inertia" params = "m r o_xyz o_rpy">
+    <xacro:macro name = "caster_wheel_inertia" params = "m r o_xyz o_rpy">
 
         <inertial>
                 <mass value = "${m}"/>
